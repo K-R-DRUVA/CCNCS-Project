@@ -186,7 +186,7 @@ def format_security_analysis(report):
 
 def main():
     # Create an instance of MobSF
-    mobsf = MobSF(apikey="b399480d452c72911a55d2d152253b6a30382887077f630642f82a02c8075ada", server="http://localhost:8000/")
+    mobsf = MobSF(apikey="<your-api-key>", server="http://localhost:8000/")
 
     # Upload a file (ensure you have a valid file path)
     with open("/home/mrgrey/Downloads/Spotify.apk", "rb") as file:
